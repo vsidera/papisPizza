@@ -64,6 +64,11 @@ h2 {
     color: black;
 }
 
+#form{
+  text-align: centre;
+  align-content: center;
+}
+
 #rightbar{
   padding-top: 100px;
   align-content: center;
