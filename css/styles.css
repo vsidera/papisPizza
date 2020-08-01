@@ -38,9 +38,10 @@
     color: black;
 }
 
-body {
+#home {
   background: url(../images/pizzapic.jpg);
   background-size: cover;
+  height: 630px;
 }
 
 h2 {
@@ -51,17 +52,20 @@ h2 {
     text-align: center;
 }
 
-.button {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
+ .button {
     color: black;
-    padding: 15px 32px;
-    padding-right: 30px;
-    margin-right: 1%;
-    margin-bottom: 1%;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+}
 
+.button:hover {
+    color: black;
+}
+
+#rightbar{
+  padding-top: 100px;
+  align-content: center;
+  align-items: center;
 }

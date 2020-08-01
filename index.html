@@ -10,27 +10,78 @@
   </head>
   <body>
 
-    <div class="nav" id= av">
-        <div class="logo"><img src="images/papislogo.png" alt="logo"></div>
-        <ul>
-            <li><a href="html/about.html">WHO WE ARE</a></li>
-            <li><a href="html/menu.html">MENU</a></li>
-            <li><a href="index.html">HOME</a></li>
-        </ul>
-    </div>
 
-    <div class="container-fluid">
+
+    <div class="container-fluid" id="home">
+      <div class="nav" id= nav">
+          <div class="logo"><img src="images/papislogo.png" alt="logo"></div>
+          <ul>
+              <li><a href="html/menu.html">OUR PIZZA</a></li>
+              <li><a href="index.html">HOME</a></li>
+          </ul>
+      </div>
 	    <div class="row">
 		   <div class="col-md-7">
          <p>This is the left div</p>
 		   </div>
-		   <div class="col-md-5">
+		   <div class="col-md-5" id="rightbar">
          <h2>There's no pizza like papis pizza</h2>
-         <input type="button" value="ORDER HERE" class="button" id="orderhere"
-
+         <div class="button">
+         <input type="button" value="ORDER HERE">
+        </div>
 		   </div>
 	    </div>
     </div>
+
+    <div class="container-fluid">
+	    <div class="row">
+        <h3>Order your favourite pizza here</h3>
+		    <div class="col-md-5">
+          <form action="">
+                <label for="select">Select Your Flavor</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name">
+                  <option value="Chicken Tikka">Chicken Tikka</option>
+                  <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                  <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+                  <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                  <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+                  <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                </select>
+                <label for="select">Select Size</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                  <option selected value="0">Select size here</option>
+                  <option value="large">Large -- sh. 1200</option>
+                  <option value="medium">Medium -- sh. 850</option>
+                  <option value="small">Small -- sh. 600</option>
+                </select>
+                  <label for="crust">Choose your favorite Crust!</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                        <option selected value="0">Select your preferred crust!</option>
+                      <option value="Crispy">Crispy -- sh. 200</option>
+                      <option value="Stuffed">Stuffed -- sh. 150</option>
+                      <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                    </select>
+                <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                    <label class="custom-control-label" for="Sausage">Sausage</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                    <label class="custom-control-label" for="Bacon">Bacon</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                    <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                  </div>
+                  <br><br>
+                <button type="submit" class="btn btn-green proceed">Buy Now</button>
+
+              </form>
+  		    </div>
+  	     </div>
+       </div>
+
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
