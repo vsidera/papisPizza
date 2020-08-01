@@ -60,8 +60,22 @@ h2 {
     font-weight: bold;
 }
 
+.confirm {
+    border: 6px solid #948473;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
 .button:hover {
     color: black;
+}
+
+.conbutton{
+  padding: 5px;
+  margin: 2px;
 }
 
 #formdiv{
