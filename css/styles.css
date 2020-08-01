@@ -76,6 +76,7 @@ h2 {
 .conbutton{
   padding: 5px;
   margin: 2px;
+  align-content: center;
 }
 
 #formdiv{
