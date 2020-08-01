@@ -64,9 +64,18 @@ h2 {
     color: black;
 }
 
+#formdiv{
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
 #form{
-  text-align: centre;
+  color: white;
+  padding-top: 25px;
   align-content: center;
+  text-align: center;
+  background-image: url(../images/papis2.jpg);
+
 }
 
 #rightbar{
