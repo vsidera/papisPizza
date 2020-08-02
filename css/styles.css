@@ -68,12 +68,16 @@ h2 {
 }
 
 .confirm-order {
-    border: 6px solid #948473;
+    border: 3px solid #948473;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     width: 100%;
     padding: 20px;
     text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
 
 .table-buttons {
