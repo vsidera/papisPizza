@@ -60,6 +60,7 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
 
 
 // user interface logic
+//order-here button
 $(document).ready(function() {
     $("#order-here").click(function() {
         $("#formdiv").show();
@@ -67,11 +68,13 @@ $(document).ready(function() {
     })
 
 
-    //Continue button
-    $("#continue").click(function(event) {
+    //Next button
+    $("#next").click(function(event) {
         event.preventDefault();
         $(".view-three").show();
-        $(".view-two").hide();
+        // $("#formdiv").hide();
+
+
         //get form values
         let pizzaName = $("#pizza option:selected").val();
         let pizzaSize = $("#size option:selected").val();
