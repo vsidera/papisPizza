@@ -39,6 +39,12 @@
     color: black;
 }
 
+#formdiv,
+.view-three,
+.view-four {
+    display: none;
+}
+
 #home {
   background: url(../images/pizzapic.jpg);
   background-size: cover;
@@ -84,6 +90,7 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
+  display: none;
 }
 
 #form{
