@@ -120,9 +120,9 @@ $(document).ready(function() {
         event.preventDefault();
 
         //Add an extra order
-        $(".view-three").hide();
+        $(".confirmation").hide();
         $(".view-four").hide();
-        $(".view-two").show();
+        $(".#formdiv").show();
         document.getElementById("form1").reset();
     })
 
