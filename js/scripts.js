@@ -129,6 +129,6 @@ $(document).ready(function() {
     //Delivery button
     $("#delivery").click(function() {
         $(".table-buttons").hide();
-        $(".view-four").slideDown();
+        $(".view-four").show();
     })
 })

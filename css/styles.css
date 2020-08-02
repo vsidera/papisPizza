@@ -91,8 +91,10 @@ table, th, td {
 
 .conbutton{
   padding: 5px;
-  margin: 2px;
+  margin: 6px;
   align-content: center;
+  background-color: #A62D1C;
+  color: white;
 }
 
 #formdiv{
