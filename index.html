@@ -41,12 +41,12 @@
       <div class="col-md-4">
       </div>
 
-      <div class="col-md-4" id="form">
+      <div class="col-md-4" id="form1">
 
         <form action="">
           <h3>Order your favourite pizza here</h3>
           <label for="select">Select Your Flavor</label>
-          <select class="browser-default custom-select custom-select-md mb-3 name">
+          <select class="browser-default custom-select custom-select-md mb-3" id="pizza">
             <option value="Chicken Tikka">Chicken Tikka</option>
             <option value="PeriPeri Pizza">PeriPeri Pizza</option>
             <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
@@ -82,12 +82,13 @@
             <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
           </div>
           <br><br>
-          <button type="submit" class="buyButton" id="next">NEXT</button>
-
+          <!-- <button type="submit" class="buyButton" id="next">NEXT</button> -->
+          <input type="submit" value="NEXT" class="buyButton" id="continue">
+          <div class="output"></div>
         </form>
       </div>
       <div class="col-md-4">
-        <div class="view-three">
+        <div class="confirmation">
                     <h2>Confirm your order:</h2>
                     <table class="confirm-order">
                         <thead>

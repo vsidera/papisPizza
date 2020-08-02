@@ -23,9 +23,9 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
         case "small":
             priceSize = 550;
             break;
-        default:
-            location.reload();
-            alert("Please select a pizza size");
+        // default:
+        //     location.reload();
+            // alert("Please select a pizza size");
     };
 
     switch (pizzaCrust) {
@@ -41,9 +41,10 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
         case "gluten":
             priceCrust = 150;
             break;
-        default:
-            location.reload();
-            alert("Please choose a crust");
+        // default:
+        //     location.reload();
+            // alert("Please choose a crust");
+
     };
 
     if (pizzaSize == 'large') {
@@ -69,9 +70,9 @@ $(document).ready(function() {
 
 
     //Next button
-    $("#next").click(function(event) {
+    $("#continue").click(function(event) {
         event.preventDefault();
-        $(".view-three").show();
+        $(".confirmation").show();
         // $("#formdiv").hide();
 
 
